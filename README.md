@@ -4,7 +4,7 @@ Sistema desenvolvido para ajudar no cadastro de produtos usando automação comp
 import pyautogui
 from time import sleep
 
-
+# parâmetros da localização da tela do app em tela
 pyautogui.click(1012,542, duration=2)
 pyautogui.write('rafael')
 pyautogui.click(990,577, duration=2)
